@@ -33,7 +33,7 @@ class config:
 
 
 def banner():
-    os.system('cls')
+    os.system('clear')
     print(color.PURPLE + """
 ,                
                                                                                               &@@@&&               
@@ -132,7 +132,7 @@ def main():
         print(color.GREEN + " - Device: " + str(line_type))
         print(color.RED + "____________________________________" + color.END)
     else:
-        os.system('call')
+        os.system('cal')
         os.system('date')
         print(color.BLUE + "[?] Usage:")
         print(color.CYAN + "	./%s <phone-number>" % (sys.argv[0]))
